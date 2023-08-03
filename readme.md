@@ -3,11 +3,16 @@ This repository contains code and data for a Data Science project that aims to p
 ## Project Structure
 The project is organized as follows:
 data.csv: The dataset containing information about loan applicants and their loan status.
+
 loan policy.ipynb: Jupyter Notebook containing the entire Data Science pipeline, from data loading to model evaluation.
+
 Decision Tree _model.sav: Saved Decision Tree model obtained from training on the dataset.
+
 Knn Tree _model.sav: Saved K-nearest neighbors (KNN) model obtained from training on the dataset.
+
 Naive Bayes Tree _model.sav: Saved Gaussian Naive Bayes model obtained from training on the dataset.
-Data Analysis and Preprocessing
+
+## Data Analysis and Preprocessing
 The main.ipynb notebook starts with data analysis and preprocessing. It includes steps like handling missing values, removing irrelevant columns, and detecting and removing outliers.
 
 ## Exploratory Data Analysis
