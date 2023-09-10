@@ -1,38 +1,58 @@
 # Loan Status Prediction
 This repository contains code and data for a Data Science project that aims to predict the loan status of applicants based on various attributes. The dataset used in this project is provided in the data.csv file.
-## Project Structure
-The project is organized as follows:
-data.csv: The dataset containing information about loan applicants and their loan status.
+## Dataset
+The dataset contains 34 features and 148,670 enteries
+Dataset Name: data.csv
+Dataset Shape: (148,670 rows, 34 columns)
+## Libraries Used
+Pandas
+Seaborn
+Matplotlib
+NumPy
+Scikit-Learn
+# Project Structure
 
-loan policy.ipynb: Jupyter Notebook containing the entire Data Science pipeline, from data loading to model evaluation.
+Loading the dataset and initial data exploration.
+Checking basic statistics, duplicate rows, and missing values.
+Examining data types.
 
-Decision Tree _model.sav: Saved Decision Tree model obtained from training on the dataset.
+## Data Visualization
+Visualizing data using various plots, e.g., bar plots, pie charts, and heatmaps.
+Insights about gender, regions, and loan purposes.
 
-Knn Tree _model.sav: Saved K-nearest neighbors (KNN) model obtained from training on the dataset.
+# Feature Engineering
 
-Naive Bayes Tree _model.sav: Saved Gaussian Naive Bayes model obtained from training on the dataset.
+## Identifying and handling correlated features.
+Removing irrelevant columns.
+Outlier Detection and Handling
 
-## Data Analysis and Preprocessing
-The main.ipynb notebook starts with data analysis and preprocessing. It includes steps like handling missing values, removing irrelevant columns, and detecting and removing outliers.
+## Detecting outliers using Z-scores.
+Handling outliers by removing them.
 
-## Exploratory Data Analysis
-The EDA section in the notebook involves visualizations to understand the distribution of different attributes and their relationships with the target variable, loan status.
+## Missing Value Imputation
+Imputing missing values with the mean for numerical features.
+Imputing missing values with the mode for categorical features.
 
-## Feature Engineering
-After preprocessing and EDA, the notebook applies feature engineering techniques to prepare the data for modeling. This includes encoding categorical variables using one-hot encoding and label encoding.
+# Data Transformation
+Splitting data into training and testing sets.
+Encoding categorical variables.
+Standardizing numerical features.
+Modeling
 
-## Model Training
-Three different classifiers are used for the loan status prediction:
+# Implementing two machine learning models:
+K-Nearest Neighbors (KNN)
+Gaussian Naive Bayes (NB)
 
-Decision Tree Classifier
-K-nearest neighbors (KNN) Classifier
-Gaussian Naive Bayes Classifier
-Each model is trained and evaluated using appropriate metrics.
+# Model Evaluation
+Evaluating models using Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and accuracy.
+Model Comparison
 
-## Model Evaluation and Saving
-The models are evaluated on a test set, and their performance metrics (e.g., accuracy) are displayed. The trained models are then saved as pickled files for later use.
+Comparing the performance of the KNN and Gaussian Naive Bayes models.
+Model Saving
 
-Conclusion
-This project demonstrates how to use various Data Science techniques to predict loan status based on applicant attributes. Feel free to explore the code, modify the models, and experiment with different features to improve the prediction performance.
+Saving the trained models for future use.
+# Project Conclusion
+This project covers various aspects of data analysis and machine learning, from data preprocessing and visualization to model implementation and evaluation. The GitHub repository associated with this project contains the code and the preprocessed dataset.
 
+Feel free to explore the code and the project in more detail. If you have any questions or suggestions, please don't hesitate to reach out.
 For any questions or feedback, please don't hesitate to contact the project owner.
