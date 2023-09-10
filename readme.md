@@ -5,10 +5,10 @@ The dataset contains 34 features and 148,670 enteries
 Dataset Name: data.csv
 Dataset Shape: (148,670 rows, 34 columns)
 ## Libraries Used
-Pandas
-Seaborn
-Matplotlib
-NumPy
+Pandas,
+Seaborn,
+Matplotlib,
+NumPy,
 Scikit-Learn
 # Project Structure
 
